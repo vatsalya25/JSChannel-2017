@@ -1,0 +1,41 @@
+.gallery
+{
+  height: 100vh;
+  width:100vw;
+
+  .heading
+  {
+    padding: 50px;
+    padding-bottom: 20px;
+    color: green;
+    text-align: center;
+    font-size: 40pt;
+    // add style here
+  }
+
+  .imagecontainer
+  {
+    height: 60%;
+    width: 90%;
+    // margin-left:10vw;
+    // margin-right:10vw;
+    background-color: grey;
+  }
+
+  .imagelarge
+  {
+    height:60%;
+    width: 40%;
+    padding: 10px;
+  }
+
+  .imagesmall
+  {
+    height: 25%;
+    width: 20%;
+    padding: 10px;
+  }
+
+
+
+}

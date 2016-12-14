@@ -1,0 +1,32 @@
+.speakers
+{
+
+  .speakerblock{
+    height:50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   .columnholder
+   {
+     height: 100%;
+     width:20%;
+    // flex-direction: row;
+   }
+    .speakerbox
+    {
+      height:50%;
+      width: 100%;
+      .speakerimage
+      {
+        height: 100px;
+        width: 100px;
+      }
+
+      .hoverbox
+      {
+
+      }
+    }
+  }
+
+}

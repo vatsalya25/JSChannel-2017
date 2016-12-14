@@ -1,0 +1,23 @@
+
+$primarycolor : #ffd41d;
+
+.buy-btn
+{
+  padding: 5px;
+  background-color: $primarycolor;
+  border-radius: 10%;
+  color: inherit;
+}
+
+.ghost-btn
+{
+  background-color: grey;
+  color: white;
+}
+
+.bar
+{
+  height: 10vh;
+  opacity: 0.8;
+  background-color: black;
+}

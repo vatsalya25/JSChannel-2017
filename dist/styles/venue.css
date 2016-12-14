@@ -1,0 +1,26 @@
+.venue {
+  height: 400px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.venue .hotelpic {
+  height: 200px;
+  background: black url("/images/the-ritz-carlton.jpg") no-repeat;
+}
+
+.venue #map {
+  padding: 10px;
+  margin: 0px;
+  border: 0px;
+  width: 100%;
+  height: 200px;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInZlbnVlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFFRSxjQUFjO0VBQ2QsWUFBWTtFQUNaLHFCQUFjO0VBQWQscUJBQWM7RUFBZCxjQUFjO0VBQ2QsK0JBQW9CO0VBQXBCLDhCQUFvQjtNQUFwQix3QkFBb0I7VUFBcEIsb0JBQW9CO0NBaUJyQjs7QUF0QkQ7RUFVRSxjQUFjO0VBQ2QsZ0VBQStEO0NBQy9EOztBQVpGO0VBZ0JJLGNBQWM7RUFDZCxZQUFZO0VBQ1osWUFBWTtFQUNaLFlBQVk7RUFDWixjQUFjO0NBQ2YiLCJmaWxlIjoidmVudWUuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnZlbnVlXG57XG4gIGhlaWdodDogNDAwcHg7XG4gIHdpZHRoOiAxMDAlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogcm93O1xuXG5cbiAuaG90ZWxwaWNcbiB7XG4gIGhlaWdodDogMjAwcHg7XG4gIGJhY2tncm91bmQ6IGJsYWNrIHVybCgnL2ltYWdlcy90aGUtcml0ei1jYXJsdG9uLmpwZycpIG5vLXJlcGVhdDtcbiB9XG5cbiAgI21hcFxuICB7XG4gICAgcGFkZGluZzogMTBweDtcbiAgICBtYXJnaW46IDBweDtcbiAgICBib3JkZXI6IDBweDtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBoZWlnaHQ6IDIwMHB4O1xuICB9XG59XG4iXX0= */

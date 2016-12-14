@@ -1,0 +1,19 @@
+.buy-btn {
+  padding: 5px;
+  background-color: #ffd41d;
+  border-radius: 10%;
+  color: inherit;
+}
+
+.ghost-btn {
+  background-color: grey;
+  color: white;
+}
+
+.bar {
+  height: 10vh;
+  opacity: 0.8;
+  background-color: black;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm5hdi5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUdBO0VBRUUsYUFBYTtFQUNiLDBCQUxxQjtFQU1yQixtQkFBbUI7RUFDbkIsZUFBZTtDQUNoQjs7QUFFRDtFQUVFLHVCQUF1QjtFQUN2QixhQUFhO0NBQ2Q7O0FBRUQ7RUFFRSxhQUFhO0VBQ2IsYUFBYTtFQUNiLHdCQUF3QjtDQUN6QiIsImZpbGUiOiJuYXYuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXG4kcHJpbWFyeWNvbG9yIDogI2ZmZDQxZDtcblxuLmJ1eS1idG5cbntcbiAgcGFkZGluZzogNXB4O1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAkcHJpbWFyeWNvbG9yO1xuICBib3JkZXItcmFkaXVzOiAxMCU7XG4gIGNvbG9yOiBpbmhlcml0O1xufVxuXG4uZ2hvc3QtYnRuXG57XG4gIGJhY2tncm91bmQtY29sb3I6IGdyZXk7XG4gIGNvbG9yOiB3aGl0ZTtcbn1cblxuLmJhclxue1xuICBoZWlnaHQ6IDEwdmg7XG4gIG9wYWNpdHk6IDAuODtcbiAgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7XG59XG4iXX0= */

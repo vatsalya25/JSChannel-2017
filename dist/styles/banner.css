@@ -1,0 +1,76 @@
+.head {
+  font-size: 60pt;
+}
+
+.commonheight {
+  height: 60vh;
+}
+
+.banner-container {
+  background: black url("/images/the-ritz-carlton.jpg") no-repeat;
+  background-size: cover;
+}
+
+.banner-container .bannerlanding {
+  height: 60vh;
+  padding: 0px;
+  margin-left: 15px;
+}
+
+.banner-container .banner {
+  height: 40vh;
+}
+
+.banner-container .section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 40pt;
+  color: white;
+}
+
+.banner-container .section #logojs {
+  height: 10vh;
+  width: 5vw;
+  background-color: #ffd41d;
+  text-align: right;
+}
+
+.banner-container .section #logochannel {
+  height: 10vh;
+  width: 15vw;
+  background-color: black;
+  text-align: left;
+}
+
+.banner-container #cfp {
+  height: 5vh;
+  width: 10vw;
+  border-color: white;
+  background-color: #ffd41d;
+  margin-top: 1vw;
+}
+
+.banner-container #bottomlist {
+  font-size: 15pt;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: white;
+}
+
+.banner-container .boxes {
+  width: 25vw;
+  height: 5vw;
+  padding-left: 25px;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJhbm5lci5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUlBO0VBRUUsZ0JBQWdCO0NBQ2pCOztBQUVEO0VBQ0UsYUFBYTtDQUNkOztBQVNEO0VBRUUsZ0VBQStEO0VBQy9ELHVCQUF1QjtDQXFFeEI7O0FBeEVEO0VBUUksYUFBYTtFQUNiLGFBQVk7RUFDWixrQkFBaUI7Q0FDbEI7O0FBWEg7RUFlSSxhQUNEO0NBQUM7O0FBaEJKO0VBb0JJLHFCQUFjO0VBQWQscUJBQWM7RUFBZCxjQUFjO0VBQ2QsK0JBQW9CO0VBQXBCLDhCQUFvQjtNQUFwQix3QkFBb0I7VUFBcEIsb0JBQW9CO0VBQ3BCLGdCQUFnQjtFQUNoQixhQUFhO0NBa0JiOztBQXpDSjtFQTRCTSxhQUFhO0VBQ2IsV0FBVztFQUNYLDBCQS9DaUI7RUFnRGpCLGtCQUFrQjtDQUNuQjs7QUFoQ0w7RUFvQ00sYUFBYTtFQUNiLFlBQVk7RUFDWix3QkFBd0I7RUFDeEIsaUJBQWlCO0NBQ2xCOztBQXhDTDtFQStDSyxZQUFZO0VBQ1osWUFBWTtFQUNaLG9CQUFvQjtFQUNwQiwwQkFuRWtCO0VBb0VsQixnQkFBZ0I7Q0FDakI7O0FBcERKO0VBeURLLGdCQUFnQjtFQUNoQixxQkFBYztFQUFkLHFCQUFjO0VBQWQsY0FBYztFQUNkLCtCQUFvQjtFQUFwQiw4QkFBb0I7TUFBcEIsd0JBQW9CO1VBQXBCLG9CQUFvQjtFQUNwQixhQUFhO0NBRWQ7O0FBOURKO0VBa0VLLFlBQVk7RUFDWixZQUFZO0VBQ1osbUJBQW1CO0NBRXBCIiwiZmlsZSI6ImJhbm5lci5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcblxuXG4kcHJpbWFyeWNvbG9yIDogI2ZmZDQxZDtcbi5oZWFkXG57XG4gIGZvbnQtc2l6ZTogNjBwdDtcbn1cblxuLmNvbW1vbmhlaWdodHtcbiAgaGVpZ2h0OiA2MHZoO1xufVxuXG5cblxuXG5cblxuXG5cbi5iYW5uZXItY29udGFpbmVyXG57XG4gIGJhY2tncm91bmQ6IGJsYWNrIHVybCgnL2ltYWdlcy90aGUtcml0ei1jYXJsdG9uLmpwZycpIG5vLXJlcGVhdDtcbiAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcblxuXG4gIC5iYW5uZXJsYW5kaW5nXG4gIHtcbiAgICBoZWlnaHQ6IDYwdmg7XG4gICAgcGFkZGluZzowcHg7XG4gICAgbWFyZ2luLWxlZnQ6MTVweDtcbiAgfVxuXG4gIC5iYW5uZXJcbiAge1xuICAgIGhlaWdodDogNDB2aFxuICB9XG5cbiAgLnNlY3Rpb25cbiAge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgICBmb250LXNpemU6IDQwcHQ7XG4gICAgY29sb3I6IHdoaXRlO1xuXG5cbiAgICAjbG9nb2pzXG4gICAge1xuICAgICAgaGVpZ2h0OiAxMHZoO1xuICAgICAgd2lkdGg6IDV2dztcbiAgICAgIGJhY2tncm91bmQtY29sb3I6ICRwcmltYXJ5Y29sb3I7XG4gICAgICB0ZXh0LWFsaWduOiByaWdodDtcbiAgICB9XG5cbiAgICAjbG9nb2NoYW5uZWxcbiAgICB7XG4gICAgICBoZWlnaHQ6IDEwdmg7XG4gICAgICB3aWR0aDogMTV2dztcbiAgICAgIGJhY2tncm91bmQtY29sb3I6IGJsYWNrO1xuICAgICAgdGV4dC1hbGlnbjogbGVmdDtcbiAgICB9XG4gICB9XG5cblxuXG4gICAjY2ZwXG4gICB7XG4gICAgIGhlaWdodDogNXZoO1xuICAgICB3aWR0aDogMTB2dztcbiAgICAgYm9yZGVyLWNvbG9yOiB3aGl0ZTtcbiAgICAgYmFja2dyb3VuZC1jb2xvcjogJHByaW1hcnljb2xvcjtcbiAgICAgbWFyZ2luLXRvcDogMXZ3O1xuICAgfVxuXG5cbiAgICNib3R0b21saXN0XG4gICB7XG4gICAgIGZvbnQtc2l6ZTogMTVwdDtcbiAgICAgZGlzcGxheTogZmxleDtcbiAgICAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgICAgY29sb3I6IHdoaXRlO1xuXG4gICB9XG5cbiAgIC5ib3hlc1xuICAge1xuICAgICB3aWR0aDogMjV2dztcbiAgICAgaGVpZ2h0OiA1dnc7XG4gICAgIHBhZGRpbmctbGVmdDogMjVweDtcblxuICAgfVxuXG59XG4iXX0= */
