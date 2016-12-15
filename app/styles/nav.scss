@@ -1,23 +1,48 @@
-
 $primarycolor : #ffd41d;
 
-.buy-btn
-{
-  padding: 5px;
-  background-color: $primarycolor;
-  border-radius: 10%;
-  color: inherit;
-}
 
-.ghost-btn
+.navbar
 {
-  background-color: grey;
-  color: white;
-}
-
-.bar
-{
-  height: 10vh;
-  opacity: 0.8;
   background-color: black;
+  text-align: right;
+  height: 60px;
+}
+
+.navbar_menu
+{
+ text-align: right;
+}
+
+.navbar_menu_item
+{
+ display: inline-block;
+ font-size: 20pt;
+ text-align: center;
+ width: 100px;
+}
+
+.navbar_menu_item
+{
+ display: inline-block;
+ font-size: 10pt;
+ text-align: center;
+}
+
+.link-navbar
+{
+  line-height: 60px;
+  display:inline-block;
+  color: $primarycolor;
+}
+
+.link-navbar-btn
+{
+  color: black;
+  border-radius: 5px;
+  width: 115px;
+  background-color: $primarycolor;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }

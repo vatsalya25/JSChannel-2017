@@ -1,0 +1,40 @@
+$primarycolor : #ffd41d;
+
+
+.logo
+{
+  display: flex;
+  flex-direction: row;
+  font-size: 50pt;
+  color: white;
+  font-family: Open Sans;
+  height: 150px;
+
+
+  .logo_primary
+  {
+    width: 8vw;
+    background-color: $primarycolor;
+    text-align: right;
+  }
+
+  .logo_secondary
+  {
+    width: 25vw;
+    background-color: black;
+    text-align: left;
+  }
+
+  .logo_secondary_subtitle
+  {
+  font-size: 20pt;
+  }
+
+  .logo_secondary_subtitle-year
+  {
+    color: $primarycolor;
+    font-size: 20pt;
+
+  }
+
+}

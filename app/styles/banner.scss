@@ -1,93 +1,21 @@
 
 
 
-$primarycolor : #ffd41d;
-.head
-{
-  font-size: 60pt;
-}
-
-.commonheight{
-  height: 60vh;
-}
-
-
-
-
-
-
-
-
-.banner-container
+.banner
 {
   background: black url('/images/the-ritz-carlton.jpg') no-repeat;
   background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
 
 
-  .bannerlanding
+  .link
   {
-    height: 60vh;
-    padding:0px;
-    margin-left:15px;
+    font-size:12pt;
+    font-family: 'Fjalla one';
   }
 
-  .banner
-  {
-    height: 40vh
-  }
 
-  .section
-  {
-    display: flex;
-    flex-direction: row;
-    font-size: 40pt;
-    color: white;
-
-
-    #logojs
-    {
-      height: 10vh;
-      width: 5vw;
-      background-color: $primarycolor;
-      text-align: right;
-    }
-
-    #logochannel
-    {
-      height: 10vh;
-      width: 15vw;
-      background-color: black;
-      text-align: left;
-    }
-   }
-
-
-
-   #cfp
-   {
-     height: 5vh;
-     width: 10vw;
-     border-color: white;
-     background-color: $primarycolor;
-     margin-top: 1vw;
-   }
-
-
-   #bottomlist
-   {
-     font-size: 15pt;
-     display: flex;
-     flex-direction: row;
-     color: white;
-
-   }
-
-   .boxes
-   {
-     width: 25vw;
-     height: 5vw;
-     padding-left: 25px;
-
-   }
 
 }

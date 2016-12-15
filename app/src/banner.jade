@@ -1,49 +1,54 @@
-article
-  nav
-    ul
-      li
-        a(href="#") Speakers
-      li
-        a(href="#") Gallery
-      li
-        a(href="#") Venue
-      li
-        a(href="#") Sponsors
-      li
-        a(href="#") Schedule
-      li
-        a(href="#") Buy Ticket
-
+article.banner
+  nav.navbar
+    ul.navbar_menu
+      li.navbar_menu_item
+        a(href="#").link.link-navbar SPEAKERS
+      li.navbar_menu_item
+        a(href="#").link.link-navbar GALLERY
+      li.navbar_menu_item
+        a(href="#").link.link-navbar VENUE
+      li.navbar_menu_item
+        a(href="#").link.link-navbar SPONSORS
+      li.navbar_menu_item
+        a(href="#").link.link-navbar SCHEDULE
+      li.navbar_menu_item
+        a(href="#").link.link-navbar-btn BUY TICKETS
  
   div
-    section
-      div JS
-      div 
-        div Channel
-        div Conference, 2017
+    section.logo
+      div.logo_primary JS
+      div.logo_secondary 
+        div.logo_secondary_title Channel
+        div.logo_secondary_subtitle Conference, 
+          span.logo_secondary_subtitle-year 2017
    
-  a(href='#') Submit CFP  
-  a(href='#') Become a Sponsor
-  a(href='#') Recap   
+  a(href='#').link.link-btn-banner Submit CFP  
+  a(href='#').link.link-banner Become a Sponsor
+  a(href='#').link.link-banner Recap   
   
-  aside
+  aside.details
     ul
       li
-        div
-        label Date 
-        span 28-29th July
+        div.details_item
+          span.details_item_icon
+            i.fa.fa-calendar-o
+          label.details_item_label Date 
+          span.details_item_description 28-29th July
       li
-        div
-        label Venue 
-        span The Palms
+        div.details_item
+          span.details_item_icon
+            i.fa.fa-map-marker
+          label.details_item_label Venue 
+          span.details_item_description The Palms
       li
-        div 
-        label Speakers
-        span 20 Speakers
+        div.details_item
+          span.details_item_icon
+            i.fa.fa-bullhorn
+          label.details_item_label Speakers
+          span.details_item_description 20 Speakers
       li
-        div Tickets    
-  
-
-// image font awesome in lower bar 
-  
-  
+        div.details_item
+          span.details_item_icon
+            i.fa.fa-tags 
+          label.details_item_label Tickets
+          span.details_item_description x tickets left
