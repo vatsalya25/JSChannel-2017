@@ -5,35 +5,35 @@ $primarycolor : #ffd41d;
 {
   display: flex;
   flex-direction: row;
-  font-size: 50pt;
+  font-size: 75px;
   color: white;
   font-family: Open Sans;
-  height: 150px;
+  height: 140px;
 
 
   .logo_primary
   {
-    width: 8vw;
+    width: 90px;
     background-color: $primarycolor;
     text-align: right;
   }
 
   .logo_secondary
   {
-    width: 25vw;
+    width:320px;
     background-color: black;
     text-align: left;
   }
 
   .logo_secondary_subtitle
   {
-  font-size: 20pt;
+  font-size: 30px;
   }
 
   .logo_secondary_subtitle-year
   {
     color: $primarycolor;
-    font-size: 20pt;
+    font-size: 30px;
 
   }
 

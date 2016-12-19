@@ -1,5 +1,5 @@
 
-
+$primarycolor : #ffd41d;
 
 .banner
 {
@@ -12,10 +12,34 @@
 
   .link
   {
-    font-size:12pt;
+    font-size:15px;
     font-family: 'Fjalla one';
   }
 
+  .link-banner
+  {
+   display: block;
+   color: $primarycolor;
+
+  }
+
+  .link-banner-btn
+  {
+   font-size: 25px;
+   border-color: $primarycolor;
+   border-style: solid;
+   color: $primarycolor;
+   border-width: 1px;
+   margin-top: 20px;
+   margin-bottom:  40px;
+   border-radius: 5px;
+  }
+
+.landing
+{
+  height: 400px;
+  margin-left: 50px;
+}
 
 
 }

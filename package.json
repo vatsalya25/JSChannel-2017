@@ -30,6 +30,7 @@
     "gulp-useref": "^3.0.0",
     "install": "^0.8.2",
     "main-bower-files": "^2.5.0",
+    "normalize.css": "^5.0.0",
     "npm": "^4.0.3",
     "run-sequence": "^1.2.2",
     "wiredep": "^4.0.0"

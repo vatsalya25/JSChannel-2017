@@ -3,7 +3,11 @@ $primarycolor : #ffd41d;
 
 .navbar
 {
-  background-color: black;
+  background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
   text-align: right;
   height: 60px;
 }
@@ -16,33 +20,26 @@ $primarycolor : #ffd41d;
 .navbar_menu_item
 {
  display: inline-block;
- font-size: 20pt;
+ font-size: 40px;
  text-align: center;
- width: 100px;
+ padding-left: 25px;
+ padding-right: 25px;
 }
 
-.navbar_menu_item
-{
- display: inline-block;
- font-size: 10pt;
- text-align: center;
-}
 
 .link-navbar
 {
   line-height: 60px;
   display:inline-block;
   color: $primarycolor;
+  text-transform: uppercase;
 }
 
 .link-navbar-btn
 {
   color: black;
   border-radius: 5px;
-  width: 115px;
   background-color: $primarycolor;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px 30px 10px 30px;
+  text-transform: uppercase;
 }

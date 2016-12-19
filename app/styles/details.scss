@@ -1,0 +1,54 @@
+
+$primarycolor : #ffd41d;
+
+
+.details
+{
+  background-color: black;
+  height: 60px;
+}
+
+.details_list
+{
+text-align: center;;
+}
+
+
+.details_item
+{
+ display: inline-block;
+ font-size: 20px;
+ text-align: center;
+ padding-left: 75px;
+ padding-right: 75px;
+
+}
+
+.details_box
+{
+display: flex;
+flex-direction: row;
+height: 40px;
+}
+
+.details_box_icon
+{
+  height: 40px;
+  font-size: 30px;
+  color: $primarycolor;
+}
+
+.details_box_label
+{
+  height: 20px;
+  color: white;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.details_box_value
+{
+  height: 20px;
+font-size: 15px;
+color: $primarycolor;
+}

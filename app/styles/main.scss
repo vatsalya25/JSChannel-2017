@@ -6,12 +6,13 @@ $icon-font-path: '../fonts/';
 // endbower
 
 @import "../styles/nav.scss";
+@import "../styles/_colors.scss";
 @import "../styles/logo.scss";
 @import "../styles/banner.scss";
 @import "../styles/venue.scss";
 @import "../styles/footer.scss";
 @import "../styles/gallery.scss";
-@import "../styles/description.scss";
+@import "../styles/details.scss";
 @import "../styles/speakers.scss";
 
 
