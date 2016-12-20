@@ -1,5 +1,5 @@
+@import "../styles/color.scss";
 
-$primarycolor : #ffd41d;
 
 .banner
 {
@@ -20,18 +20,17 @@ $primarycolor : #ffd41d;
   {
    display: block;
    color: $primarycolor;
-
+   margin-top: 5px;
   }
 
   .link-banner-btn
   {
    font-size: 25px;
+   padding: 10px 30px 10px 30px;
+   color: $primarycolor;
    border-color: $primarycolor;
    border-style: solid;
-   color: $primarycolor;
    border-width: 1px;
-   margin-top: 20px;
-   margin-bottom:  40px;
    border-radius: 5px;
   }
 
@@ -39,7 +38,24 @@ $primarycolor : #ffd41d;
 {
   height: 400px;
   margin-left: 50px;
+  position: relative;
 }
+
+
+.landing_btn
+{
+position: absolute;
+margin-top:200px;
+text-transform: uppercase;
+}
+
+.landing_links
+{
+  margin-top: 250px;
+  position: absolute;
+}
+
+
 
 
 }

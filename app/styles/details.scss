@@ -1,16 +1,15 @@
-
-$primarycolor : #ffd41d;
-
+@import "../styles/color.scss";
 
 .details
 {
   background-color: black;
-  height: 60px;
+  height: 110px;
 }
 
 .details_list
 {
-text-align: center;;
+text-align: center;
+width: 100%;
 }
 
 
@@ -19,36 +18,46 @@ text-align: center;;
  display: inline-block;
  font-size: 20px;
  text-align: center;
- padding-left: 75px;
- padding-right: 75px;
-
+ padding-left: 80px;
+ padding-right: 80px;
+ line-height: 110px;
 }
 
 .details_box
 {
 display: flex;
 flex-direction: row;
-height: 40px;
+height: 110px;
+font-family: Fjalla One;
+font-weight: 100;
 }
 
 .details_box_icon
 {
-  height: 40px;
-  font-size: 30px;
+  height: 110px;
+  font-size: 50px;
   color: $primarycolor;
+}
+
+.details_box_content
+{
+  display: flex;
+  flex-direction: column;
 }
 
 .details_box_label
 {
+  text-align: left;
   height: 20px;
   color: white;
   font-size: 15px;
   display: inline-block;
+  font-style: Open-Sans;
 }
 
 .details_box_value
 {
-  height: 20px;
+height: 20px;
 font-size: 15px;
 color: $primarycolor;
 }

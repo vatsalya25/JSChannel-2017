@@ -21,10 +21,13 @@ article.banner
         div.logo_secondary_title Channel
         div.logo_secondary_subtitle Conference, 
           span.logo_secondary_subtitle-year 2017
-   
-    a(href='#').link.link-banner-btn Submit CFP  
-    a(href='#').link.link-banner Become a Sponsor >
-    a(href='#').link.link-banner Recap >   
+    
+    div.landing_btn
+      a(href='#').link.link-banner-btn Submit CFP  
+    
+    div.landing_links
+      a(href='#').link.link-banner Recap >
+      a(href='#').link.link-banner Become a Sponsor >  
   
   aside.details
     ul.details_list
@@ -32,23 +35,27 @@ article.banner
         div.details_box
           span.details_box_icon
             i.fa.fa-calendar-o
-          label.details_box_label Date 
-          span.details_box_value 28-29th July
+          .details_box_content
+            label.details_box_label Date 
+            span.details_box_value 28-29th July
       li.details_item
         div.details_box
           span.details_box_icon
             i.fa.fa-map-marker
-          label.details_box_label Venue 
-          span.details_box_value The Palms
+          .details_box_content  
+            label.details_box_label Venue 
+            span.details_box_value The Palms
       li.details_item
         div.details_box
           span.details_box_icon
             i.fa.fa-bullhorn
-          label.details_box_label Speakers
-          span.details_box_value 20 Speakers
+          .details_box_content
+            label.details_box_label Speakers
+            span.details_box_value 20 Speakers
       li.details_item
         div.details_box
           span.details_box_icon
-            i.fa.fa-tags 
-          label.details_box_label Tickets
-          span.details_box_value x tickets left
+            i.fa.fa-tags
+          .details_box_content
+            label.details_box_label Tickets
+            span.details_box_value x tickets left

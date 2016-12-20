@@ -1,5 +1,4 @@
-$primarycolor : #ffd41d;
-
+@import "../styles/color.scss";
 
 .logo
 {
@@ -8,19 +7,20 @@ $primarycolor : #ffd41d;
   font-size: 75px;
   color: white;
   font-family: Open Sans;
-  height: 140px;
+  margin-bottom: 60px;
+  position: absolute;
 
 
   .logo_primary
   {
-    width: 90px;
+    width: 100px;
     background-color: $primarycolor;
     text-align: right;
   }
 
   .logo_secondary
   {
-    width:320px;
+    width:350px;
     background-color: black;
     text-align: left;
   }
@@ -28,13 +28,14 @@ $primarycolor : #ffd41d;
   .logo_secondary_subtitle
   {
   font-size: 30px;
+  text-transform: uppercase;
+  font-family: Open Sans;
   }
 
   .logo_secondary_subtitle-year
   {
     color: $primarycolor;
     font-size: 30px;
-
   }
 
 }
