@@ -42,6 +42,85 @@ body {
 /* Jumbotron Section */
 .jumbotron {
     height: 650px;
-    background-image: url(../assets/bg.jpg);
+    background-image: url(../assets/landing-image.jpg);
     background-size: 100% 650px;
+    padding-top: 0px;
+}
+
+.overlay {
+    height: 650px;
+    background-image: url(../assets/overlay-black.png);
+    background-size: 100% 650px;
+}
+
+.jschannel-logo{
+    margin-top: 140px;
+}
+
+.cfp {
+	width: 190px;
+	height: 48px;
+	border-radius: 4px;
+	border: solid 1px #ffd31d;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.cfp span {
+    width: 124px;
+	height: 25px;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 28px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: left;
+	color: #ffd41d;
+    vertical-align: middle;
+}
+
+.jumbotron .recap {
+    margin-top: 39px;
+}
+
+.jumbotron .sponser {
+    margin-top: 20px; 
+}
+
+.jumbotron .details {
+    margin-top: 82px;
+    /*width: 92px;*/
+	height: 37px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: condensed;
+	line-height: 1.31;
+	text-align: left;
+	color: #ffd527;
+}
+
+.jumbotron .details .title {
+    color: #ffffff;
+}
+
+.jumbotron .details .block {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.jumbotron .recap-2016, .jumbotron .become-a-sponser {
+	width: 81px;
+	height: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	letter-spacing: -0.3px;
+	text-align: left;
+	color: #ffd41d;
 }
