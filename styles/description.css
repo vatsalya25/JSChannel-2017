@@ -1,7 +1,79 @@
 /* Learning Description */
 
-.description{
+.description
+{
   width: 1280px;
 	height: 600px;
 	background-color: #ffffff;
+}
+
+
+
+.heading
+{
+	height: 36px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: center;
+	color: #ffd41d;
+  text-transform: uppercase;
+}
+
+.subtitle
+{
+	height: 18px;
+  margin-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.33;
+	text-align: center;
+	color: #616a70;
+}
+
+
+.description_box
+{
+margin-top: 100px;
+}
+
+.description_box_icon
+{
+  width: 190px;
+  height: 90px;
+  object-fit: contain;
+}
+
+
+.description_box_title
+{
+  width: 189px;
+	height: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: center;
+	color: #616a70;
+  font-size: 20px;
+	line-height: 1.0;
+}
+
+.description_box_subtitle
+{
+  width: 189px;
+	height: 110px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.71;
+	text-align: center;
+	color: #616a70;
 }
