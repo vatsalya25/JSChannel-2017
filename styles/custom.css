@@ -1,0 +1,47 @@
+body {
+    padding-bottom: 20px;
+}
+
+/* Navbar Section */
+.navbar {
+    height: 100px;
+}
+.navbar-collapse {
+    margin-top: 44px;
+    line-height: 36px;
+}
+.navbar-collapse a {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: left;
+    color: #ffd527;
+    vertical-align: middle;
+    margin-left: 25px;
+}
+.button-buy-ticket {
+	width: 135px;
+	height: 36px;
+	border-radius: 4px;
+	background-color: #ffd527;
+}
+.button-buy-ticket span {
+	width: 83px;
+	height: 17px;
+    font-family: 'Fjalla One', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: left;
+	color: #231f20;
+}
+
+/* Jumbotron Section */
+.jumbotron {
+    height: 650px;
+    background-image: url(../assets/bg.jpg);
+    background-size: 100% 650px;
+}
