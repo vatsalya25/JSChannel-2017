@@ -2,9 +2,14 @@ body {
     padding-bottom: 20px;
 }
 
+.text-center {
+	text-align: center;
+}
+
 /* Navbar Section */
 .navbar {
     height: 100px;
+	position: absolute;
 }
 .navbar-collapse {
     margin-top: 44px;
@@ -16,7 +21,7 @@ body {
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    text-align: left;
+    text-align: center;
     color: #ffd527;
     vertical-align: middle;
     margin-left: 25px;
@@ -123,4 +128,102 @@ body {
 	letter-spacing: -0.3px;
 	text-align: left;
 	color: #ffd41d;
+}
+
+/* Tickets Section */
+
+.tickets {
+	height: 650px;
+	background-color: #ffd31d;
+}
+
+.tickets .buy-tickets-col {
+	text-align: center;
+    margin-top: 100px;
+}
+
+.tickets .buy-tickets {
+	width: 269px;
+	height: 36px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 48px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: center;
+	color: #000000;
+}
+
+.tickets .tickets-types-col {
+	text-align: center;
+    margin-top: 100px;
+}
+
+.tickets .text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 2.06;
+	letter-spacing: -0.4px;
+	text-align: center;
+	color: #ffffff;
+	margin-bottom: 38px;
+}
+
+.tickets .price-box {
+	width: 230px;
+    height: 107px;
+	margin-top: 38px;
+	margin: 0 auto;
+    background-image: url(../assets/img-ticket.png);
+    background-size: 230px 107px;
+	line-height: 107px;
+}
+
+.tickets .price-text {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 47px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3.36;
+    text-align: center;
+    color: #000000;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.tickets .price-btn {
+	width: 135px;
+	height: 36px;
+	border-radius: 4px;
+	background-color: #ff6c00;
+	margin-top: 60px;
+}
+
+.tickets .price-btn span {
+	width: 63px;
+	height: 17px;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: center;
+	color: #ffffff;
+}
+
+.tickets .few-seats{
+	width: 231px;
+	height: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: italic;
+	font-stretch: normal;
+	line-height: 2.64;
+	text-align: center;
+	color: #000000;
 }
