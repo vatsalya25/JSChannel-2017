@@ -37,6 +37,7 @@
   <link href="styles/description.css" rel="stylesheet">
   <link href="styles/schedule.css" rel="stylesheet">
   <link href="styles/contactus.css" rel="stylesheet">
+  <link href="styles/venue.css" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -47,7 +48,7 @@
 </head>
 
 <body>
-  <nav class="navbar">
+  <nav class="navbar navbar-default navbar-static-top">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -58,116 +59,164 @@
         </button>
       </div>
       <div id="navbar" class="navbar-collapse collapse navbar-right">
-        <a href="">SPEAKERS</a>
-        <a href="">SCHEDULE</a>
-        <a href="">VENUE</a>
-        <a href="">SPONSERS</a>
-        <a href="">GALLERY</a>
-        <a href="" class="btn button-buy-ticket"><span>BUY TICKETS</span></a>
-      </div><!--/.navbar-collapse -->
+        <ul class="nav navbar-nav">
+          <li><a class="visible" href="">SPEAKERS</a></li>
+          <li><a class="visible" href="">SCHEDULE</a></li>
+          <li><a href="#venue">VENUE</a></li>
+          <li><a class="visible" href="">SPONSERS</a></li>
+          <li><a href="#gallery">GALLERY</a></li>
+          <li><a href="#tickets" class="btn button-buy-ticket"><span>BUY TICKETS</span></a></li>
+        </ul>
+      </div>
     </div>
   </nav>
 
-  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <!-- Main jumbotron -->
   <div class="jumbotron">
-    <div class="overlay">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <img class="jschannel-logo" src="assets/jschannel-logo.jpg" />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <img class="jschannel-logo" src="assets/jschannel-logo.jpg" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="cfp">
+            <span>SUBMIT CFP</span>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-3">
-            <div class="cfp">
-              <span>SUBMIT CFP</span>
-            </div>
+      </div>
+      <div class="row recap">
+        <div class="col-md-3">
+          <span class="recap-2016">Recap 2016 ></span>
+        </div>
+      </div>
+      <div class="row sponser">
+        <div class="col-md-3">
+          <a href="assets/sponsorship-flyer.pdf" target="_blank" class="become-a-sponser">Become A Sponser ></a>
+        </div>
+      </div>
+      <div class="row details hidden-xs hidden-sm">
+        <div class="col-md-3">
+          <img src="assets/ico-date.png" />
+          <div class="block">
+            <div class="title">Date</div>
+            <div>July 28-29, 2017</div>
           </div>
         </div>
-        <div class="row recap">
-          <div class="col-md-3">
-            <span class="recap-2016">Recap 2016 ></span>
+        <div class="col-md-3">
+          <img src="assets/ico-location.png" />
+          <div class="block">
+            <div class="title">Location</div>
+            <div>JW Marriott Hotel, Bengaluru, India</div>
           </div>
         </div>
-        <div class="row sponser">
-          <div class="col-md-3">
-            <span class="become-a-sponser">Become A Sponser ></span>
+        <div class="col-md-3">
+          <img src="assets/ico-speakers.png" />
+          <div class="block">
+            <div class="title">Speakers</div>
+            <div>20 Speakers</div>
           </div>
         </div>
-        <div class="row details">
-          <div class="col-md-3">
-            <img src="assets/ico-date.png" />
-            <div class="block">
-              <div class="title">Date</div>
-              <div>July 28-29, 2017</div>
-            </div>
+        <div class="col-md-3">
+          <img src="assets/ico-tickets.png" />
+          <div class="block">
+            <div class="title">Tickets</div>
+            <div>Buy Tickets</div>
           </div>
-          <div class="col-md-3">
-            <img src="assets/ico-location.png" />
-            <div class="block">
-              <div class="title">Location</div>
-              <div>The Ritz-Carlton Hotel, Bengaluru, India</div>
-            </div>
-          </div>
-          <div class="col-md-3">
+        </div>
+      </div>
+    </div>
+  </div>
 
-            <img src="assets/ico-speakers.png" />
-            <div class="block">
-              <div class="title">Speakers</div>
-              <div>20 Speakers</div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <img src="assets/ico-tickets.png" />
-            <div class="block">
-              <div class="title">Tickets</div>
-              <div>Buy Tickets</div>
-            </div>
-          </div>
+  <div class="container-fluid details-phone hidden-md hidden-lg">
+    <div class="row details-phone-row">
+      <div class="col-sm-offset-1 col-xs-offset-1 col-sm-2 col-xs-2 phone-ico">
+        <img src="assets/ico-date-phone.png" />
+      </div>
+      <div class="col-sm-9 col-xs-9">
+        <div class="block">
+          <div class="title">Date</div>
+          <div>July 28-29, 2017</div>
+        </div>
+      </div>
+    </div>
+    <div class="row details-phone-row">
+      <div class="col-sm-offset-1 col-xs-offset-1 col-sm-2 col-xs-2 phone-ico">
+        <img src="assets/ico-location-phone.png" />
+      </div>
+      <div class="col-sm-9 col-xs-9">
+        <div class="block">
+          <div class="title">Location</div>
+            <div>JW Marriott Hotel, Bengaluru, India</div>
+        </div>
+      </div>
+    </div>
+    <div class="row details-phone-row">
+      <div class="col-sm-offset-1 col-xs-offset-1 col-sm-2 col-xs-2 phone-ico">
+        <img src="assets/ico-speakers-phone.png" />
+      </div>
+      <div class="col-sm-9 col-xs-9">
+        <div class="block">
+          <div class="title">Speakers</div>
+            <div>20 Speakers</div>
+        </div>
+      </div>
+    </div>
+    <div class="row details-phone-row">
+      <div class="col-sm-offset-1 col-xs-offset-1 col-sm-2 col-xs-2 phone-ico">
+        <img src="assets/ico-tickets-phone.png" />
+      </div>
+      <div class="col-sm-9 col-xs-9">
+        <div class="block">
+          <div class="title">Tickets</div>
+            <div>Buy Tickets</div>
         </div>
       </div>
     </div>
   </div>
 
   <div class="container description">
-    <!-- Prakhar - learning -->
     <div class="row">
-      <h2 class = "heading">Two Days of Learning!</h2>
-      <p class="subtitle"> join us for an opportuity to learn and hear from the best brains in the industry </p>
+      <div class="col-md-12">
+        <h2 class="heading">Two Days of Learning!</h2>
+      </div>
+      <div class="col-md-12">
+        <p class="subtitle"> join us for an opportuity to learn and hear from the best brains in the industry </p>
+      </div>
     </div>
 
     <div class="row description_box">
-      <div class="col-md-2 col-md-offset-1">
-        <img class = "description_box_icon" src="assets/shape-1.png" alt="speakerphone">
-        <h2 class = "description_box_title"> Date </h2>
-        <p class = "description_box_subtitle"> 28 - 29th July </p>
+      <div class="col-md-2 col-xs-4 col-md-offset-1 text-center">
+        <img class="description_box_icon" src="assets/shape-1.png" alt="speakerphone">
+        <h2 class="description_box_title"> Date </h2>
+        <p class="description_box_subtitle"> 28 - 29th July </p>
 
       </div>
-      <div class="col-md-2">
-        <img class = "description_box_icon" src="assets/ico-talks.png" alt="speakerphone">
-        <h2 class = "description_box_title">Talks</h2>
-        <p class = "description_box_subtitle"> Opportunity to learn from the stalwarts of the js Commmunity. A Platform to Learn share and Connect.</p>
+      <div class="col-md-2 col-xs-4 text-center">
+        <img class="description_box_icon" src="assets/ico-talks.png" alt="speakerphone">
+        <h2 class="description_box_title">Talks</h2>
+        <p class="description_box_subtitle"> Opportunity to learn from the stalwarts of the js Commmunity. A Platform to Learn share and Connect.</p>
       </div>
-      <div class="col-md-2">
-        <img class = "description_box_icon" src="assets/ico-workshops.png" alt="speakerphone">
-        <h2 class = "description_box_title">Workshops</h2>
-        <p class = "description_box_subtitle">Join us to learn and interact with professional js trainers and experience live coding sessions.</p>
+      <div class="col-md-2 col-xs-4 text-center">
+        <img class="description_box_icon" src="assets/ico-workshops.png" alt="speakerphone">
+        <h2 class="description_box_title">Workshops</h2>
+        <p class="description_box_subtitle">Join us to learn and interact with professional js trainers and experience live coding sessions.</p>
       </div>
-      <div class="col-md-2">
-        <img class = "description_box_icon" src="assets/ico-food.png" alt="speakerphone">
-        <h2 class = "description_box_title">Fabulous Food</h2>
-        <p class = "description_box_subtitle"> Enjoy sumptious cuisine prepared by one of the best restaurants in Bengaluru </p>
+      <div class="col-md-2 col-xs-6 text-center">
+        <img class="description_box_icon" src="assets/ico-food.png" alt="speakerphone">
+        <h2 class="description_box_title">Fabulous Food</h2>
+        <p class="description_box_subtitle"> Enjoy sumptious cuisine prepared by one of the best restaurants in Bengaluru </p>
       </div>
-      <div class="col-md-2">
-        <img class = "description_box_icon" src="assets/ico-venue.png" alt="speakerphone">
-        <h2 class = "description_box_title">Venue</h2>
-        <p class = "description_box_subtitle">The Ritx Carlton Bengaluru , Karnataka</p>
+      <div class="col-md-2 col-xs-6 text-center">
+        <img class="description_box_icon" src="assets/ico-venue.png" alt="speakerphone">
+        <h2 class="description_box_title">Venue</h2>
+        <p class="description_box_subtitle">The Ritx Carlton Bengaluru , Karnataka</p>
       </div>
     </div>
   </div>
 
-  <div class="container tickets">
-    <!-- Container for Buy tickets - Pranam  -->
+  <div id="tickets" class="container-fluid tickets">
     <div class="container">
       <div class="row">
         <div class="col-md-12 buy-tickets-col">
@@ -191,7 +240,7 @@
             <span class="price-text">₹</span>
             <span class="price-text">4500</span>
           </div>
-          <div class="btn price-btn">
+          <div class="btn price-btn" disabled="disabled">
             <span>BUY NOW</span>
           </div>
         </div>
@@ -201,7 +250,7 @@
             <span class="price-text">₹</span>
             <span class="price-text">6000</span>
           </div>
-          <div class="btn price-btn">
+          <div class="btn price-btn" disabled="disabled">
             <span>BUY NOW</span>
           </div>
         </div>
@@ -214,114 +263,390 @@
     </div>
   </div>
 
-
-  <div class="container">
-    <!-- Container for Hackathon - Prakhar -->
-  </div>
-  <div class="container">
-    <!-- Container for Speakers - Pranam -->
-  </div>
-  <div class="container">
-    <!-- Container for Sponsers - Prakhar -->
-  </div>
-  <div class="container">
-    <!-- Container for partners - Prakhar -->
-  </div>
-  <div class="container schedule">
-    <!-- Container for schedule - Prakhar -->
-    <h2 class = "schedule_heading">Schedule</h2>
-    <p class="subtitle"> Join us for an opportuity to learn and hear from the best brains in the industry </p>
-
-
+  <div class="container hackathon visible">
     <div class="row">
-      <div class="schedule_tab col-md-2 col-md-offset-1">
-        <p class="schedule_tab_title">JULY 28</p>
-        <p class="schedule_tab_subtitle">DAY 1</p>
-      </div>
-
-      <div class="schedule_tab col-md-2">
-        <p class="schedule_tab_title">JULY 29</p>
-        <p class="schedule_tab_subtitle">DAY 2</p>
+      <div class="col-md-12 text-center title-gutter">
+        <span class="title">Hackathon</span>
       </div>
     </div>
     <div class="row">
-      <div class="schedule_container col-md-10 col-md-offset-1">
-        <div class="row">
-          <div class="schedule_container_icon col-md-1 col-md-offset-1">
-            <img src="assets/ico-schedule.png" alt="icon">
-          </div>
-          <div class="schedule_container_holder col-md-9">
-          </div>
-        </div>
-        <div class="row">
-          <div class="schedule_container_icon col-md-1 col-md-offset-1">
-            <img src="assets/ico-schedule.png" alt="icon">
-          </div>
-          <div class="schedule_container_holder col-md-9">
-          </div>
-        </div>
-        <div class="row">
-          <div class="schedule_container_icon col-md-1 col-md-offset-1">
-            <img src="assets/ico-schedule.png" alt="icon">
-          </div>
-          <div class="schedule_container_holder col-md-9">
-          </div>
-        </div>
-        <div class="row">
-          <div class="schedule_container_icon col-md-1 col-md-offset-1">
-            <img src="assets/ico-schedule.png" alt="icon">
-          </div>
-          <div class="schedule_container_holder col-md-9">
-          </div>
-        </div>
-        <div class="row">
-          <div class="schedule_container_icon col-md-1 col-md-offset-1">
-            <img src="assets/ico-schedule.png" alt="icon">
-          </div>
-          <div class="schedule_container_holder col-md-9" style="height:164px;">
-          </div>
-        </div>
-        <div class="row">
-          <div class="schedule_container_icon col-md-1 col-md-offset-1">
-            <img src="assets/ico-schedule.png" alt="icon">
-          </div>
-          <div class="schedule_container_holder col-md-9">
-          </div>
-        </div>
-        <div class="row">
-          <p class="col-md-3 col-md-offset-9 complete"> Complete schedule > </p>
-        </div>
+      <div class="col-md-12 text-center sponsored-gutter">
+        <span class="sponsored">Sponsored by</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-offset-4 col-md-4 text-center logo-gutter">
+        <img src="assets/log-angelhack.png" class="img-responsive" />
       </div>
     </div>
   </div>
-  <div class="container">
-    <!-- Container for Gallery - Pranam -->
-  </div>
-  <div class="container">
-    <!-- Container for venue - Pranam -->
+
+  <div class="container-fluid speakers visible">
+    <div class="row">
+      <div class="col-md-12 text-center title-gutter">
+        <span class="title">Meet Our Speakers</span>
+      </div>
+    </div>
+    <div class="row speaker-gutter-top">
+      <div class="col-md-offset-1 col-md-2">
+        <img src="assets/dummy-img.png" class="img-responsive"/>
+      </div>
+      <div class="col-md-2">
+        <img src="assets/dummy-img.png" class="img-responsive"/>
+      </div>
+      <div class="col-md-2">
+        <img src="assets/dummy-img.png" class="img-responsive"/>
+      </div>
+      <div class="col-md-2">
+        <img src="assets/dummy-img.png" class="img-responsive"/>
+      </div>
+      <div class="col-md-2">
+        <img src="assets/dummy-img.png" class="img-responsive"/>
+      </div>
+    </div>
+    <div class="row speaker-gutter-top">
+      <div class="col-md-offset-1 col-md-2">
+        <img src="assets/dummy-img.png" class="img-responsive"/>
+      </div>
+      <div class="col-md-2">
+        <img src="assets/dummy-img.png" class="img-responsive"/>
+      </div>
+      <div class="col-md-2">
+        <img src="assets/dummy-img.png" class="img-responsive"/>
+      </div>
+      <div class="col-md-2">
+        <img src="assets/dummy-img.png" class="img-responsive"/>
+      </div>
+      <div class="col-md-2">
+        <img src="assets/dummy-img.png" class="img-responsive"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-offset-9 col-md-2">
+        <a class="view_all pull-right" href="">View All ></a>
+      </div>
+    </div>
   </div>
 
-  <div class="container">
-    <!-- Container for Gallery - Pranam -->
-  </div>
-  <div class="container">
-    <!-- Container for venue - Pranam -->
+  <div class="container sponsors visible">
+    <div class="row">
+      <div class="col-md-12 text-center title-gutter">
+        <span class="title">Our Sponsors</span>
+      </div>
+    </div>
+    <div class="row logo-gutter">
+      <div class="col-md-4 text-center">
+        <img src="assets/logo-digital-m-k.png" />
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="assets/logo.png" />
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="assets/logo-t-c-s.png" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center hr-gutter">
+        <hr/>
+      </div>
+    </div>
   </div>
 
+  <div class="container partners visible">
+    <div class="row">
+      <div class="col-md-12 text-center title-gutter">
+        <span class="title">Our Partners</span>
+      </div>
+    </div>
+    <div class="row logo-gutter">
+      <div class="col-md-6 text-center">
+        <img src="assets/logo-townscript.png" />
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="assets/logo-j-s.png" />
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid schedule visible">
+    <div class="row">
+      <div class="col-md-12 text-center title-gutter">
+        <span class="title">Schedule</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center subtitle-gutter">
+        <span class="subtitle">Join us for an opportuity to learn and hear from the best brains in the industry</span>
+      </div>
+    </div>
+    <div class="row tab-gutter">
+      <div class="col-md-offset-1 col-md-3 text-center">
+        <div class="tab">
+          <div class="date">July 28</div>
+          <div class="day">Day 1</div>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class="tab">
+          <div class="date">July 29</div>
+          <div class="day">Day 2</div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-offset-1 col-md-10">
+        <div class="schedule-content">
+          <div class="row">
+            <div class="col-md-offset-1 col-md-1 schedule-item-icon">
+              <img src="assets/ico-schedule.png" alt="icon">
+            </div>
+            <div class="schedule-item-text-holder col-md-9">
+              <div class="time-box">
+                <span class="time-icon">
+                  <img src="assets/clock.png" />
+                </span>
+                <span class="time">8:30 AM</span>
+              </div>
+              <div class="title"> Registration</div>
+              <div class="speaker-name">JS Channel</div>
+              <div class="speaker-bio">In this talk I will demonstrate In this talk I will demonstrate In this talk I will demonstrate In this talk I will demonstrate In this talk I will demonstrate</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-offset-1 col-md-1 schedule-item-icon">
+              <img src="assets/ico-schedule.png" alt="icon">
+            </div>
+            <div class="schedule-item-text-holder col-md-9">
+              <div class="time-box">
+                <span class="time-icon">
+                  <img src="assets/clock.png" />
+                </span>
+                <span class="time">8:30 AM</span>
+              </div>
+              <div class="title"> Registration</div>
+              <div class="speaker-name">JS Channel</div>
+              <div class="speaker-bio">In this talk I will demonstrate In this talk I will demonstrate In this talk I will demonstrate In this talk I will demonstrate In this talk I will demonstrate</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-offset-1 col-md-1 schedule-item-icon">
+              <img src="assets/ico-schedule.png" alt="icon">
+            </div>
+            <div class="schedule-item-text-holder col-md-9">
+              <div class="time-box">
+                <span class="time-icon">
+                  <img src="assets/clock.png" />
+                </span>
+                <span class="time">8:30 AM</span>
+              </div>
+              <div class="title"> Registration</div>
+              <div class="speaker-name">JS Channel</div>
+              <div class="speaker-bio">In this talk I will demonstrate In this talk I will demonstrate In this talk I will demonstrate In this talk I will demonstrate In this talk I will demonstrate</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-offset-1 col-md-1 schedule-item-icon">
+              <img src="assets/ico-schedule.png" alt="icon">
+            </div>
+            <div class="schedule-item-text-holder col-md-9">
+              <div class="time-box">
+                <span class="time-icon">
+                  <img src="assets/clock.png" />
+                </span>
+                <span class="time">8:30 AM</span>
+              </div>
+              <div class="title"> Registration</div>
+              <div class="speaker-name">JS Channel</div>
+              <div class="speaker-bio">In this talk I will demonstrate In this talk I will demonstrate In this talk I will demonstrate In this talk I will demonstrate In this talk I will demonstrate</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-offset-1 col-md-1 schedule-item-icon">
+              <img src="assets/ico-schedule.png" alt="icon">
+            </div>
+            <div class="schedule-item-text-holder col-md-9">
+              <div class="time-box">
+                <span class="time-icon">
+                  <img src="assets/clock.png" />
+                </span>
+                <span class="time">8:30 AM</span>
+              </div>
+              <div class="title"> Registration</div>
+              <div class="speaker-name">JS Channel</div>
+              <div class="speaker-bio">In this talk I will demonstrate In this talk I will demonstrate In this talk I will demonstrate In this talk I will demonstrate In this talk I will demonstrate</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-offset-1 col-md-1 schedule-item-icon">
+              <img src="assets/ico-schedule.png" alt="icon">
+            </div>
+            <div class="schedule-item-text-holder col-md-9">
+              <div class="time-box">
+                <span class="time-icon">
+                  <img src="assets/clock.png" />
+                </span>
+                <span class="time">8:30 AM</span>
+              </div>
+              <div class="title"> Registration</div>
+              <div class="speaker-name">JS Channel</div>
+              <div class="speaker-bio">In this talk I will demonstrate In this talk I will demonstrate In this talk I will demonstrate In this talk I will demonstrate In this talk I will demonstrate</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <a class="col-md-2 col-md-offset-9 complete-schedule">View Complete schedule ></a>
+    </div>
+  </div>
+
+  <div id="gallery" class="container-fluid gallery hidden-xs hidden-sm">
+    <div class="row">
+      <div class="col-md-12 text-center gallery-gutter-bottom">
+        <span class="gallery-text">GALLERY 2016</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-offset-1 col-md-4 img-height-400">
+        <img src="assets/gallery/1.jpg" class="img-responsive"/>
+      </div>
+      <div class="col-md-2">
+        <div class="row gallery-gutter-bottom">
+          <div class="col-md-12 img-height-190">
+            <img src="assets/gallery/2.jpg" class="img-responsive"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 img-height-190">
+            <img src="assets/gallery/3.jpg" class="img-responsive"/>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="row gallery-gutter-bottom">
+          <div class="col-md-12 img-height-190">
+            <img src="assets/gallery/4.jpg" class="img-responsive"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 img-height-190">
+            <img src="assets/gallery/5.jpg" class="img-responsive"/>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="row gallery-gutter-bottom">
+          <div class="col-md-12 img-height-190">
+            <img src="assets/gallery/6.jpg" class="img-responsive"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 img-height-190">
+            <img src="assets/gallery/7.jpg" class="img-responsive"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row gallery-gutter-top">
+      <div class="col-md-offset-1 col-md-2 img-height-190">
+        <img src="assets/gallery/8.jpg" class="img-responsive"/>
+      </div>
+      <div class="col-md-2 img-height-190">
+        <img src="assets/gallery/9.jpg" class="img-responsive"/>
+      </div>
+      <div class="col-md-2 img-height-190">
+        <img src="assets/gallery/10.jpg" class="img-responsive"/>
+      </div>
+      <div class="col-md-2 img-height-190">
+        <img src="assets/gallery/11.jpg" class="img-responsive"/>
+      </div>
+      <div class="col-md-2 img-height-190">
+        <img src="assets/gallery/12.jpg" class="img-responsive"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-offset-9 col-md-2">
+        <a class="view_full pull-right" href="https://www.flickr.com/photos/100543192@N08/albums/72157670448580580" target="_blank">View Full Album ></a>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid gallery-phone hidden-md hidden-lg">
+    <div class="row">
+      <div class="col-sm-12 text-center gallery-text-gutter">
+        <span class="gallery-text">GALLERY 2016</span>
+      </div>
+    </div>
+    <div class="row gallery-gutter-bottom">
+      <div class="col-sm-4 col-xs-4">
+        <img src="assets/gallery/1.jpg" class="img-responsive"/>
+      </div>
+      <div class="col-sm-4 col-xs-4">
+        <img src="assets/gallery/2.jpg" class="img-responsive"/>
+      </div>
+      <div class="col-sm-4 col-xs-4">
+        <img src="assets/gallery/3.jpg" class="img-responsive"/>
+      </div>
+    </div>
+    <div class="row gallery-gutter-bottom">
+      <div class="col-sm-4 col-xs-4">
+        <img src="assets/gallery/4.jpg" class="img-responsive"/>
+      </div>
+      <div class="col-sm-4 col-xs-4">
+        <img src="assets/gallery/5.jpg" class="img-responsive"/>
+      </div>
+      <div class="col-sm-4 col-xs-4">
+        <img src="assets/gallery/6.jpg" class="img-responsive"/>
+      </div>
+    </div>
+    <div class="row gallery-gutter-bottom">
+      <div class="col-sm-4 col-xs-4">
+        <img src="assets/gallery/7.jpg" class="img-responsive"/>
+      </div>
+      <div class="col-sm-4 col-xs-4">
+        <img src="assets/gallery/8.jpg" class="img-responsive"/>
+      </div>
+      <div class="col-sm-4 col-xs-4">
+        <img src="assets/gallery/9.jpg" class="img-responsive"/>
+      </div>
+    </div>
+  </div>
+
+  <div id="venue" class="container-fluid venue">
+    <div class="row">
+      <div class="col-md-5 venue-details">
+        <div class="row">
+          <div class="col-md-offset-2 col-md-9 venue-title-gutter">
+            <span class="venue-title">Venue</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-offset-2 col-md-9 venue-hotel-gutter">
+            <span class="venue-hotel">JW Marriott Hotel</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-offset-2 col-md-9">
+            <span class="venue-address">Bengaluru, Karnataka</span>
+          </div>
+        </div>
+      </div>
+      <div id="map" class="col-md-7">
+      </div>
+    </div>
+  </div>
 
   <footer>
-    <!-- contact - prakhar -->
-    <div class="container contactus">
+    <div class="container-fluid contactus">
       <div class="row contactrow">
-
-      <p class="contact col-md-2 col-md-offset-1 col-sm-12">Contact</p>
-      <p class="col-md-offset-2 col-sm-12 numbers">Amit Kumar 8975532535 Suman Paul 272137452 Rajesh Panda 233423424</p>
-      <p class="col-md-offset-1 col-sm-12 numbers">Niket Jain 8975532535 Naresh Sharma 272137452</p>
-    </div>
-    <div class="row contactrow">
-      <p class="col-md-3 col-md-offset-5 copyright">Copyright@JSchannel 2013-2017 Code of Conduct</p>
-
-    </div>
+        <p class="contact col-md-2 col-md-offset-1">Contact</p>
+        <p class="col-md-offset-2 col-md-7 numbers">Mobile: 8975532535</p>
+      </div>
+      <div class="row">
+        <p class="col-md-5 col-md-offset-5 copyright">Copyright © JSchannel 2013-2017</p>
+      </div>
+      <div class="row">
+        <p class="col-md-3 col-md-offset-5 copyright">Code of Conduct</p>
+      </div>
     </div>
   </footer>
 
@@ -330,6 +655,8 @@
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
+  <script async defer src="scripts/main.js" type="text/javascript"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXzTLtgdEAXsv7uYZSPl3h3XSBVCwY_v8&callback=initMap"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>

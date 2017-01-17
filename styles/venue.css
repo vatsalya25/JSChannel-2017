@@ -1,0 +1,68 @@
+.venue {
+    min-height: 650px;
+    margin-top: 70px;
+}
+
+#map {
+    min-height: 650px;
+}
+
+.venue-title {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 48px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: left;
+	color: #ffd41d;
+    text-transform: uppercase;
+}
+
+.venue-title-gutter {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.venue-hotel {
+	font-family: 'Open Sans', sans-serif;;
+	font-size: 48px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.08;
+	text-align: left;
+	color: #ffffff;
+    text-transform: uppercase;
+}
+
+.venue-hotel-gutter {
+    margin-bottom: 15px;
+}
+
+.venue-address {
+    font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.33;
+	text-align: left;
+	color: #ffffff;
+    text-transform: uppercase;
+}
+
+.venue-details {
+    min-height: 650px;
+	background-image: url(../assets/j-w-m-blore.png);
+    background-size: 100% 100%;
+    background-repeat: round;
+}
+
+@media screen and (max-width: 767px) {
+	.venue-details {
+		min-height: 650px;
+		background-image: url(../assets/Img_hotel_mobile.jpg);
+		background-size: 100% 100%;
+		background-repeat: round;
+	}
+}
