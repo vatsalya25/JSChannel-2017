@@ -53,6 +53,18 @@ body {
 	.jschannel-logo{
 		margin-top: 0px !important;
     	margin-left: -15px;
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+
+	.details-phone .details-phone-row {
+		margin-bottom: 90px;
+		text-align: center;
+	}
+
+	.details-phone .phone-ico {
+		margin-bottom: 20px;
 	}
 }
 
@@ -97,6 +109,7 @@ body {
     min-height: 650px;
     background-image: url(../assets/landing-image.jpg);
     background-size: 100% 650px;
+	background-repeat: round;
     padding-top: 0px;
 }
 
@@ -381,6 +394,18 @@ body {
 }
 
 .gallery .view_full{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: -0.3px;
+    text-align: left;
+    color: #ff6c00;
+    margin-top: 20px;
+}
+
+.gallery-phone .view_full{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: normal;
